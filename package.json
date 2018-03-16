@@ -1,0 +1,19 @@
+{
+  "name": "sobrinojulian.github.io",
+  "version": "1.0.0",
+  "description": "Personal site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sobrinojulian/sobrinojulian.github.io.git"
+  },
+  "author":
+    "Sobrino Julian <sobrinojulian@protonmail.com> (sobrinojulian.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sobrinojulian/sobrinojulian.github.io/issues"
+  },
+  "homepage": "https://github.com/sobrinojulian/sobrinojulian.github.io#readme",
+  "dependencies": {
+    "sobrinojulian": "^1.0.0"
+  }
+}
