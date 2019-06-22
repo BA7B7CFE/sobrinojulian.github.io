@@ -1,0 +1,23 @@
+{% assign email = "mailto:" | append: site.data.info.email %}
+{% assign twitter = "https://twitter.com/" | append: site.data.info.twitter %}
+{% assign github = "https://github.com/" | append: site.data.info.github %}
+{% assign mastodon = "https://mastodon.social/@sobrinojulian" %}
+{% assign gpg = "https://" | append: site.data.info.gpg %}
+
+<footer class="pv4 ph3 ph5-ns tc">
+	<a class="link near-white hover-silver dib h2 w2 mr3" href="{{ email }}" title="Email" target="_blank">
+		{% include email.svg %}
+	</a>
+	<a class="link near-white hover-silver dib h2 w2 mr3" href="{{ twitter }}" title="Twitter" target="_blank">
+		{% include twitter.svg %}
+	</a>
+	<a class="link near-white hover-silver dib h2 w2 mr3" href="{{ github }}" title="Github" target="_blank">
+		{% include github.svg %}
+	</a>
+	<a class="link near-white hover-silver dib h2 w2 mr3" href="{{ mastodon }}" title="Mastodon" target="_blank">
+		{% include mastodon.svg %}
+	</a>
+	<a class="link near-white hover-silver dib h2 w2 mr3" href="{{ gpg }}" title="GPG" target="_blank">
+		{% include gpg.svg %}
+	</a>
+</footer>

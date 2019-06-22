@@ -1,3 +1,7 @@
-data_dir: node_modules
-exclude: ['*']
-include: ['index.html', 'gpg.asc', 'sobrinojulian.png']
+data_dir: node_modules/sobrinojulian
+exclude:
+  - README.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - .gitignore

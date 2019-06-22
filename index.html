@@ -2,54 +2,17 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <article class="athelas">
-      <div class="vh-100 dt w-100 tc bg-dark-gray white cover"
-           style="background:url(https://mrmrs.github.io/photos/u/009.jpg) no-repeat center;">
-        <div class="dtc v-mid">
-          {% include logo.svg %}
-          <footer class="pv4 ph3 ph5-ns tc">
-            {% assign email = site.data.sobrinojulian.index.email %}
-            <a class="link near-white hover-silver dib h2 w2 mr3"
-               href="mailto:{{ email }}"
-               title="Email"
-               target="_blank">
-              {% include email.svg %}
-            </a>
-            {% assign twitter = site.data.sobrinojulian.index.twitter %}
-            <a class="link near-white hover-silver dib h2 w2 mr3"
-               href="https://twitter.com/{{ twitter }}"
-               title="Twitter"
-               target="_blank">
-              {% include twitter.svg %}
-            </a>
-            {% assign github = site.data.sobrinojulian.index.github %}
-            <a class="link near-white hover-silver dib h2 w2 mr3"
-               href="https://github.com/{{ github }}"
-               title="Github"
-               target="_blank">
-              {% include github.svg %}
-            </a>
-            {% assign rotonde = site.data.sobrinojulian.index.rotonde %}
-            <a class="link near-white hover-silver dib h2 w2 mr3"
-               href="{{ rotonde }}"
-               title="Rotonde"
-               target="_blank">
-              {% include rotonde.svg %}
-            </a>
-            {% assign gpg = site.data.sobrinojulian.index.gpg %}
-            <a class="link near-white hover-silver dib h2 w2 mr3"
-               href="{{ gpg }}"
-               title="GPG"
-               target="_blank">
-              {% include gpg.svg %}
-            </a>
-          </footer>
-        </div>
-      </div>
-    </article>
-  </body>
+<body>
+	<article class="athelas">
+		<div class="vh-100 dt w-100 tc bg-dark-gray white cover" style="background:url('background.jpg') no-repeat center;">
+			<div class="dtc v-mid">
+				{% include logo.svg %}
+				{% include footer.html %}
+			</div>
+		</div>
+	</article>
+</body>
 
 </html>
